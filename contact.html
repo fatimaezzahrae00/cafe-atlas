@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Atlas Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Café atlas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Écrivez-nous</h2>
+            <p>Une question ou une réservation ?
+                Nous serons ravis de vous répondre !</p>
+        <form action="#">
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre Nom" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="ex@email.com" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Votre Message..."required></textarea>
+            </div>
+
+            <button type="submit"> Envoyer</button>
+        </form>
+        </section>
+    </main>
+    
+</body>
+</html>

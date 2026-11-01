@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+   background-color:#f5efe6 ;
+   color:#2C3E50 ;
+    line-height: 1.6;
+    display: grid;
+}
+header{
+    background-color: #2C3E50;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    display: grid;
+    gap: 15px;
+
+}
+nav ul {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    
+}
+nav a {
+    display: block;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+
+}
+nav a:hover{
+    background-color: #E74C3C;
+    border-radius: 5px;
+}
+ nav a.active{
+    background-color: #E74C3C;
+    font-weight: 600;
+ }
+
+
+label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+input , textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #2C3E50;
+    
+}
+input:focus ,textarea:focus {
+    outline: none;
+    border-color: #E74C3C;
+}
+button {
+    padding: 12px;
+    width: 30%;
+    background-color: #E74C3C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    
+    
+    
+}
+button:hover {
+    background-color: #2C3E50;
+}
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #2C3E50;
+}
+main {
+    display: grid;
+    justify-items: centre;
+    align-content: start;
+    padding: 30px 15px;
+}
+.presentation {
+    max-width: 600px;
+    padding: 35px;
+    text-align: 35px;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+
+.presentation h2,
+.presentation p {
+    margin: 0;
+}
+
+
+}
+.btn {
+    background-color: #E74C3C;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: #2C3E50;
+}
+
+  
+
+.contact-section {
+    max-width: 600px;
+    /* box-sizing: border-box; */
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+.contact-section h2 {
+    text-align: center;
+    margin: 0 0 15px;
+}
+.contact-section p {
+    text-align: center;
+    margin: 0 0 20px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
